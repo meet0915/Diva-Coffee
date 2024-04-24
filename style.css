@@ -23,12 +23,11 @@
         right: 50%;
         transform: translate(-50%);
         max-width: 1200px;
-        border: 1px solid red;
         display: flex;
         align-items: center;
         justify-content: space-between;
         position: fixed;
-        padding:1.3rem 1rem;
+        padding:1.3rem 2rem;
         border: 1px solid white; border-radius: 50px;
         backdrop-filter:blur(10px);
         margin-top: 1rem;
@@ -74,7 +73,7 @@
         align-items: center;
     }
     .header-containt{
-        width: 30%;
+        width: 32%;
         text-align: center;
     }
     .header-containt h2{
@@ -109,14 +108,14 @@
         position: absolute;
         bottom: -5rem;
         display: flex;
+        /* flex-wrap: wrap; */
         align-items:end;
         justify-content: space-between;
-        gap: 7rem;
         padding: 0 5rem;
     }
     .header-gelery .gelery-box {
         height: 100%;
-        width: 100%;
+        width: 20%;
         border: 1px solid #fff;
         border-radius: 25px;
         overflow: hidden;

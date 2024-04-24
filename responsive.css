@@ -1,0 +1,633 @@
+/* responsive for mobile */
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        width: 90%;
+        padding: 0.7rem 2rem;
+    }
+    ul li {
+        display: none;
+    }
+    .social-media ul{
+        gap: 1rem;
+    }
+    .social-media ul li {
+        display: block;
+    }
+
+    .logo {
+        width: 20%;
+        left: 5%;
+        transform: translate(-0%, 5%);
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    /* header responsive */
+    header {
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .header-containt {
+        width: 90%;
+        text-align: center;
+    }
+
+    .header-containt h2 {
+        font-size: 1.7rem;
+        font-weight: 200;
+    }
+
+    .header-containt h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h1 img {
+        width: 70px;
+    }
+
+    .header-containt a {
+        padding: 0.5rem 1.1rem;
+        font-size: 0.9rem;
+    }
+
+    /* header gelery responsive */
+    .header-gelery {
+        height: 25vh;
+        width: 100%;
+        padding: 0 2rem;
+        gap: 2rem;
+        white-space: nowrap;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+    .header-gelery .gelery-box {
+        height: 100%;
+        width: 35%;
+        flex: 0 0 auto;
+        border-radius: 10px;
+    }
+
+    .header-gelery .small {
+        height: 70%;
+    }
+
+    .gelery-box img {
+        height: 100%;
+        width: 100%;
+        transition: all 1s ease;
+    }
+
+    .overlay {
+        z-index: 888;
+        backdrop-filter: blur(2px);
+    }
+
+    .overlay h3 {
+        font-size: 1rem;
+    }
+
+    /* our-passion responsive */
+    #our-passion {
+        margin-top: 2rem;
+        padding: 5rem 2rem;
+        position: relative;
+    }
+
+    .our-passions-containt {
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+        position: relative;
+    }
+
+    .our-passions-containt h1 {
+        font-size: 2rem;
+    }
+
+    .our-passion-sec {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .our-passion-sec .sec-containt {
+        height: 100%;
+        width: 100%;
+    }
+
+    .our-passion-sec:last-child {
+        flex-direction: column-reverse;
+    }
+
+    .our-passions-containt .our-passions-img1 {
+        height: 30vh;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .our-passions-containt .our-passions-img2 {
+        height: 20vh;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .sec-containt p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .sec-containt .small-pera {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    #our-passion .bg-img:first-child {
+        display: none;
+    }
+
+    #our-passion .bg-img:last-child {
+        display: none;
+    }
+}
+
+/* responsive for tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 824px) { 
+    nav {
+        width: 90%;
+        padding: 1rem 2rem;
+    }
+    ul li {
+        display: none;
+    }
+    .social-media ul{
+        gap: 1.2rem;
+    }
+    .social-media ul li {
+        display: block;
+    }
+    .logo {
+        width: 15%;
+        left: 5%;
+        transform: translate(-0%, 5%);
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    /* header responsive */
+    header {
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .header-containt {
+        width: 60%;
+        text-align: center;
+    }
+
+    .header-containt h2 {
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    .header-containt h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h1 img {
+        width: 80px;
+    }
+
+    .header-containt a {
+        padding: 0.6rem 1.3rem;
+        font-size: 1rem;
+    }
+
+    /* header gelery responsive */
+    .header-gelery {
+        height: 30vh;
+        width: 100%;
+        padding: 0 2rem;
+        gap: 2rem;
+        white-space: nowrap;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+    .header-gelery .gelery-box {
+        height: 100%;
+        width: 30%;
+        flex: 0 0 auto;
+        border-radius: 10px;
+    }
+
+    .header-gelery .small {
+        height: 70%;
+    }
+
+    .gelery-box img {
+        height: 100%;
+        width: 100%;
+        transition: all 1s ease;
+    }
+
+    .overlay {
+        z-index: 888;
+        backdrop-filter: blur(3px);
+    }
+
+    .overlay h3 {
+        font-size: 1.2rem;
+    }
+
+    /* our-passion responsive */
+    #our-passion {
+        margin-top: 2rem;
+        padding: 5rem 2rem;
+        position: relative;
+    }
+
+    .our-passions-containt {
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+        position: relative;
+    }
+
+    .our-passions-containt h1 {
+        font-size: 2rem;
+    }
+
+    .our-passion-sec {
+        width: 100%;
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .our-passion-sec .sec-containt {
+        height: 100%;
+        width: 100%;
+    }
+
+    .our-passions-containt .our-passions-img1 {
+        height: 40vh;
+        width: 80%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .our-passions-containt .our-passions-img2 {
+        height: 25vh;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .sec-containt p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .sec-containt .small-pera {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    #our-passion .bg-img:first-child {
+        display: none;
+    }
+
+    #our-passion .bg-img:last-child {
+        display: none;
+    }
+}
+
+/* responsive for mini-desktop */
+
+@media only screen and (min-width: 824px) and (max-width: 1200px) {
+    nav {
+        width: 90%;
+        padding: 1.1rem 2rem;
+    }
+    nav ul{
+        gap: 1.3rem;
+    }
+    nav ul li {
+        font-size: 1rem;
+    }
+    .logo {
+        width: 12%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, 5%);
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    /* header responsive */
+    header {
+        height: 80vh;
+        width: 100vw;
+    }
+
+    .header-containt {
+        width: 50%;
+        text-align: center;
+    }
+
+    .header-containt h2 {
+        font-size: 2.5rem;
+        font-weight: 200;
+    }
+
+    .header-containt h1 {
+        font-size: 3rem;
+        margin-bottom: 1.8rem;
+    }
+
+    h1 img {
+        width: 110px;
+    }
+
+    .header-containt a {
+        padding: 0.8rem 1.7rem;
+        font-size: 1.1rem;
+    }
+
+    /* header gelery responsive */
+    .header-gelery {
+        height: 35vh;
+        width: 100%;
+        padding: 0 2rem;
+        gap: 1.1rem;
+    }
+
+    .header-gelery .gelery-box {
+        height: 100%;
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .header-gelery .small {
+        height: 70%;
+    }
+
+    .gelery-box img {
+        height: 100%;
+        width: 100%;
+        transition: all 1s ease;
+    }
+
+    .overlay {
+        z-index: 888;
+        backdrop-filter: blur(5px);
+    }
+
+    .overlay h3 {
+        font-size: 1.2rem;
+    }
+
+    /* our-passion responsive */
+    #our-passion {
+        margin-top: 2rem;
+        padding: 5rem 2rem;
+        position: relative;
+    }
+
+    .our-passions-containt {
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+        position: relative;
+    }
+
+    .our-passions-containt h1 {
+        font-size: 2.5rem;
+    }
+
+    .our-passion-sec {
+        width: 100%;
+        margin-top: 1rem;
+        gap: 2rem;
+    }
+
+    .our-passion-sec .sec-containt {
+        height: 100%;
+        width: 100%;
+    }
+
+    .our-passions-containt .our-passions-img1 {
+        height: 50vh;
+        width: 70%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .our-passions-containt .our-passions-img2 {
+        height: 35vh;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .sec-containt p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .sec-containt .small-pera {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    #our-passion .bg-img:first-child {
+        width: 50%;
+        height: 70%;
+        top: 10%;
+
+    }
+    .bg-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #our-passion .bg-img:last-child {
+        width: 50%;
+        height: 70%;
+        bottom: -5%;
+    }
+ }
+
+/* mid desktop responsive */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    nav {
+        width: 90%;
+        padding: 1.3rem 2rem;
+    }
+    nav ul{
+        gap: 2rem;
+    }
+    nav ul li {
+        font-size: 1rem;
+    }
+    .logo {
+        width: 10%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, 5%);
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    /* header responsive */
+    header {
+        height: 90vh;
+        width: 100vw;
+    }
+
+    .header-containt {
+        width: 40%;
+        text-align: center;
+    }
+
+    .header-containt h2 {
+        font-size: 3rem;
+        font-weight: 200;
+    }
+
+    .header-containt h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1.8rem;
+    }
+
+    h1 img {
+        width: 110px;
+    }
+
+    .header-containt a {
+        padding: 0.8rem 1.7rem;
+        font-size: 1.1rem;
+    }
+
+    /* header gelery responsive */
+    .header-gelery {
+        height: 40vh;
+        width: 100%;
+        padding: 0 2rem;
+        gap: 2rem;
+    }
+
+    .header-gelery .gelery-box {
+        height: 100%;
+        width: 22%;
+        border-radius: 10px;
+    }
+
+    .header-gelery .small {
+        height: 70%;
+    }
+
+    .gelery-box img {
+        height: 100%;
+        width: 100%;
+        transition: all 1s ease;
+    }
+
+    .overlay {
+        z-index: 888;
+        backdrop-filter: blur(5px);
+    }
+
+    .overlay h3 {
+        font-size: 1.8rem;
+    }
+
+    /* our-passion responsive */
+    #our-passion {
+        margin-top: 5rem;
+        padding: 5rem 2rem;
+        position: relative;
+    }
+
+    .our-passions-containt {
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+        padding: 2rem 5rem;
+        position: relative;
+    }
+
+    .our-passions-containt h1 {
+        font-size: 2.7rem;
+    }
+
+    .our-passion-sec {
+        width: 100%;
+        margin-top: 1rem;
+        gap: 5rem;
+    }
+
+    .our-passion-sec .sec-containt {
+        height: 100%;
+        width: 100%;
+    }
+
+    .our-passions-containt .our-passions-img1 {
+        height: 70vh;
+        width: 70%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .our-passions-containt .our-passions-img2 {
+        height: 40vh;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .sec-containt p {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .sec-containt .small-pera {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    #our-passion .bg-img:first-child {
+        width: 50%;
+        height: 70%;
+        top: 10%;
+
+    }
+    .bg-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #our-passion .bg-img:last-child {
+        width: 50%;
+        height: 70%;
+        bottom: -5%;
+    }
+}
