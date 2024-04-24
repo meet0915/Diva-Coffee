@@ -6,6 +6,7 @@
         width: 90%;
         padding: 0.7rem 2rem;
         backdrop-filter:blur(10px);
+        z-index: 99999;
     }
     ul li {
         display: none;
