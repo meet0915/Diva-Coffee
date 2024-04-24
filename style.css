@@ -1,0 +1,235 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background-color:black;
+        font-family: "Roboto", sans-serif;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+    nav{
+        width: 90%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%);
+        max-width: 1200px;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        padding:1.3rem 1rem;
+        border: 1px solid white; border-radius: 50px;
+        backdrop-filter:blur(10px);
+        margin-top: 1rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        z-index: 999;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    ul li{
+        list-style: none;
+        font-size: 1.2rem;
+    }
+    li a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease-in-out;
+    }
+    a:hover{
+        color: #E9BC9D;
+        
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    header{
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("./assets/header_bg.png");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-containt{
+        width: 30%;
+        text-align: center;
+    }
+    .header-containt h2{
+        font-size: 3rem;
+        font-family: "Kaushan Script", cursive;
+        color: #E9BC9D;
+        font-weight: 200;
+    }
+    .header-containt h1{
+        font-size: 3.5rem;
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+    }
+    .header-containt a{
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 0.7rem 1.5rem;
+        border: 1px solid #fff; border-radius: 50px;
+        backdrop-filter: blur(10px);
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .header-containt a:hover{
+        background-color: rgba(0, 0, 0, 0.7);
+        border-color:#E9BC9D;
+        color: #E9BC9D;
+    }
+    .header-gelery{
+        height: 45vh;
+        width: 100%;
+        position: absolute;
+        bottom: -5rem;
+        display: flex;
+        align-items:end;
+        justify-content: space-between;
+        gap: 7rem;
+        padding: 0 5rem;
+    }
+    .header-gelery .gelery-box {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        overflow: hidden;
+        position: relative;
+        transition: all 1s ease-in-out;
+    }
+    .header-gelery .small {
+        height: 70%;    
+    }
+    .gelery-box img{
+        height: 100%;
+        width: 100%;
+        transform: scale(1);
+        transition: all 2s ease;
+        object-fit: cover;
+        object-position: center;
+    }
+    .overlay{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: -100%;
+        z-index: 888;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        transition: all 0.8s ease;
+    }
+    .overlay h3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+        color: #000;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .gelery-box:hover .overlay{
+        top: 0;
+    }
+    .gelery-box:hover img{
+        transform: scale(1.1);
+    }
+
+    /* our passions style */
+    #our-passion{
+        margin-top: 5rem;
+        padding: 5rem;
+        position: relative;
+    }
+    .our-passions-containt{
+        border: 1px solid #fff; border-radius: 30px;
+        height: 90vh;
+        width: 100%;
+        padding:4rem 5rem;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+    }
+    .our-passions-containt h1{
+        color: #E9BC9D;
+        text-transform: capitalize;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .our-passion-sec{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+    }
+    .our-passion-sec .sec-containt{
+        color: #fff;
+        height: 100%; width: 50%;
+    }
+    .our-passions-containt .our-passions-img1{
+        height: 40vh;
+        width: 30%;
+        border: 1px solid #fff; border-radius: 30px;
+        overflow: hidden;
+    }
+    .our-passions-containt .our-passions-img2{
+        height: 30vh;
+        width:40%;
+        border: 1px solid #fff; border-radius: 30px;
+        overflow: hidden;
+    }
+    .our-passions-img1 img,
+    .our-passions-img2 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .sec-containt p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .sec-containt .small-pera{
+        font-size: 1.3rem;
+        text-align: left;
+    }
+    #our-passion .bg-img:first-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    #our-passion .bg-img:last-child{
+    position: absolute;
+    bottom: -40%;
+    right: 0;
+    z-index: -1;
+    }
