@@ -65,6 +65,7 @@
         overflow-x: auto;
         scroll-behavior: smooth;
         scrollbar-width: none;
+        -ms-overflow-style: none;
     }
 
     .header-gelery .gelery-box {
